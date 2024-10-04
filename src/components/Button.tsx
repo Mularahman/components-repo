@@ -24,6 +24,6 @@ const Button = ({ label = 'Button', className = '', onClick, variant = 'primary'
             </button>
         </>
     )
-    
+
 }
 export default Button;
