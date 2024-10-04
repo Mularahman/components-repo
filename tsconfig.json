@@ -7,7 +7,12 @@
     "declaration": true,
     "outDir": "./dist",
     "strict": true,
-    "moduleResolution": "bundler",
+      "moduleResolution": "node",
+      "baseUrl": ".", 
+    "paths": {
+      "@/libs/*": ["src/libs/*"],
+      "@/components/*": ["src/components/*"]
+    }
   },
   "include": ["src"]
 }

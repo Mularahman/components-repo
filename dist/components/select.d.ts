@@ -1,0 +1,11 @@
+declare const Select: any;
+declare const SelectGroup: any;
+declare const SelectValue: any;
+declare const SelectTrigger: import("react").ForwardRefExoticComponent<any>;
+declare const SelectScrollUpButton: import("react").ForwardRefExoticComponent<any>;
+declare const SelectScrollDownButton: import("react").ForwardRefExoticComponent<any>;
+declare const SelectContent: import("react").ForwardRefExoticComponent<any>;
+declare const SelectLabel: import("react").ForwardRefExoticComponent<any>;
+declare const SelectItem: import("react").ForwardRefExoticComponent<any>;
+declare const SelectSeparator: import("react").ForwardRefExoticComponent<any>;
+export { Select, SelectGroup, SelectValue, SelectTrigger, SelectContent, SelectLabel, SelectItem, SelectSeparator, SelectScrollUpButton, SelectScrollDownButton, };
