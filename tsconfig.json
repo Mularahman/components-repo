@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES5",
-    "module": "ES6",
+    "target": "ES6", 
+    "lib": ["DOM", "ES6", "DOM.Iterable", "ScriptHost"], 
     "jsx": "react",
-    "declaration": true, 
+    "esModuleInterop": true,
+    "declaration": true,
     "outDir": "./dist",
-    "moduleResolution": "node",
-    "esModuleInterop": true
+    "strict": true,
+    "moduleResolution": "bundler",
   },
-  "include": ["src/**/*"]
+  "include": ["src"]
 }

@@ -1,7 +1,9 @@
-import React from 'react';
+import React from "react";
 interface ButtonProps {
-    label: string;
+    label?: string;
+    className?: string;
     onClick: () => void;
+    variant?: 'primary' | 'secondary' | 'danger' | 'outline' | 'success';
 }
-declare const Button: React.FC<ButtonProps>;
+declare const Button: ({ label, className, onClick, variant }: ButtonProps) => React.JSX.Element;
 export default Button;

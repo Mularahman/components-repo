@@ -1,7 +1,14 @@
-// src/components/Button.tsx
-import React from 'react';
-var Button = function (_a) {
-    var label = _a.label, onClick = _a.onClick;
-    return (React.createElement("button", { onClick: onClick, className: "bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600" }, label));
+import React from "react";
+const variantClasses = {
+    primary: 'bg-blue-500 text-white hover:bg-blue-700',
+    secondary: 'bg-gray-500 text-white hover:bg-gray-700',
+    danger: 'bg-red-500 text-white hover:bg-red-700',
+    outline: 'border border-gray-500 text-gray-500 hover:bg-gray-500 hover:text-white',
+    success: 'bg-green-500 text-white hover:bg-green-700',
+};
+const Button = ({ label = 'Button', className = '', onClick, variant = 'primary' }) => {
+    const classes = `${variantClasses[variant]} px-4 py-2 rounded ${className}`;
+    return (React.createElement(React.Fragment, null,
+        React.createElement("button", { onClick: onClick, className: classes }, label)));
 };
 export default Button;
