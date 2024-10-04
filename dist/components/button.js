@@ -1,4 +1,5 @@
 import React from "react";
+import 'libs/tailwind';
 const variantClasses = {
     primary: 'bg-blue-500 text-white hover:bg-blue-700',
     secondary: 'bg-gray-500 text-white hover:bg-gray-700',

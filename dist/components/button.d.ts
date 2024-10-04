@@ -1,4 +1,5 @@
 import React from "react";
+import 'libs/tailwind';
 interface ButtonProps {
     label?: string;
     className?: string;
