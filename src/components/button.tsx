@@ -1,29 +1,28 @@
-import React from "react";
-import 'libs/tailwind';
-interface ButtonProps {
-    label?: string;
-    className?: string;
-    onClick: () => void;
-    variant?: 'primary' | 'secondary' | 'danger' | 'outline' | 'success';
-}
+import React from 'react';
 
-const variantClasses: Record<string, string> = {
-    primary: 'bg-blue-500 text-white hover:bg-blue-700',
-    secondary: 'bg-gray-500 text-white hover:bg-gray-700',
-    danger: 'bg-red-500 text-white hover:bg-red-700',
-    outline: 'border border-gray-500 text-gray-500 hover:bg-gray-500 hover:text-white',
-    success: 'bg-green-500 text-white hover:bg-green-700',
+type ButtonProps = {
+    variant?: 'default' | 'primary' | 'success' | 'danger';
+    children: React.ReactNode;
+    onClick?: () => void;
+    className?: string;
 };
 
-const Button = ({ label = 'Button', className = '', onClick, variant = 'primary' }: ButtonProps) => {
-    const classes = `${variantClasses[variant]} px-4 py-2 rounded ${className}`;
-    return (
-        <>
-            <button onClick={onClick} className={classes}>
-                {label}
-            </button>
-        </>
-    )
+const Button: React.FC<ButtonProps> = ({ variant = 'default', children, onClick, className }) => {
+    const baseStyles = 'py-2 px-4 rounded focus:outline-none';
+    const variantStyles = {
+        default: 'bg-gray-300 text-black hover:bg-gray-400',
+        primary: 'bg-blue-500 text-white hover:bg-blue-600',
+        success: 'bg-green-500 text-white hover:bg-green-600',
+        danger: 'bg-red-500 text-white hover:bg-red-600',
+    };
 
-}
+    const combinedStyles = `${baseStyles} ${variantStyles[variant]} ${className}`;
+
+    return (
+        <button onClick={onClick} className={combinedStyles}>
+            {children}
+        </button>
+    );
+};
+
 export default Button;
