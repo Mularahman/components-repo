@@ -2,7 +2,11 @@
   "name": "components-repo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build:css": "postcss src/libs/tailwind.css -o dist/tailwind.css",
     "build": "npm run build:css && babel src --out-dir dist --extensions '.ts,.tsx'"
