@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+     "dist/tailwind.css"
   ],
   "scripts": {
     "build:css": "postcss src/libs/tailwind.css -o dist/tailwind.css",
