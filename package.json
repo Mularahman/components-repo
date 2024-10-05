@@ -1,15 +1,15 @@
 {
-  "name": "components-repo",
-  "version": "1.0.0",
+  "name": "components-repo-testing",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-     "dist/tailwind.css"
+     "libs/tailwind.css"
   ],
   "scripts": {
-    "build:css": "postcss src/libs/tailwind.css -o dist/tailwind.css",
+    "build:css": "postcss src/libs/tailwind.css -o dist/libs/tailwind.css",
     "build": "npm run build:css && babel src --out-dir dist --extensions '.ts,.tsx'",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\""
