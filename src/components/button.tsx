@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../libs/tailwind.css';
 
 type ButtonProps = {
   variant?: 'default' | 'primary' | 'success' | 'danger'
@@ -7,7 +8,7 @@ type ButtonProps = {
   className?: string
 }
 
-const Button: React.FC<ButtonProps> = ({ variant = 'default', children, onClick, className }) => {
+const Button = ({ variant = 'default', children, onClick, className }: ButtonProps) => {
   const baseStyles = 'py-2 px-4 rounded focus:outline-none'
   const variantStyles = {
     default: 'bg-gray-300 text-black hover:bg-gray-400',
