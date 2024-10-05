@@ -1,5 +1,4 @@
 import React from 'react';
-import '../libs/tailwind.css';
 
 type ButtonProps = {
   variant?: 'default' | 'destructive' | 'outline' | 'secondary' | 'ghost' | 'link'

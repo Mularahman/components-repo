@@ -9,5 +9,6 @@ Object.defineProperty(exports, "Button", {
     return _button["default"];
   }
 });
+require("./libs/tailwind.css");
 var _button = _interopRequireDefault(require("./components/button"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
