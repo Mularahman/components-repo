@@ -45,6 +45,18 @@ Object.defineProperty(exports, "AlertDialogHeader", {
     return _alertDialog.AlertDialogHeader;
   }
 });
+Object.defineProperty(exports, "AlertDialogOverlay", {
+  enumerable: true,
+  get: function get() {
+    return _alertDialog.AlertDialogOverlay;
+  }
+});
+Object.defineProperty(exports, "AlertDialogPortal", {
+  enumerable: true,
+  get: function get() {
+    return _alertDialog.AlertDialogPortal;
+  }
+});
 Object.defineProperty(exports, "AlertDialogTitle", {
   enumerable: true,
   get: function get() {
