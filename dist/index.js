@@ -537,6 +537,12 @@ Object.defineProperty(exports, "TableHeader", {
     return _table.TableHeader;
   }
 });
+Object.defineProperty(exports, "TablePagination", {
+  enumerable: true,
+  get: function get() {
+    return _tablePagination["default"];
+  }
+});
 Object.defineProperty(exports, "TableRow", {
   enumerable: true,
   get: function get() {
@@ -622,9 +628,11 @@ var _dropdownMenu = require("./components/dropdown-menu");
 var _input = require("./components/input");
 var _label = require("./components/label");
 var _pagination = require("./components/pagination");
+var _tablePagination = _interopRequireDefault(require("./components/table-pagination"));
 var _select = require("./components/select");
 var _separator = require("./components/separator");
 var _sheet = require("./components/sheet");
 var _table = require("./components/table");
 var _textarea = require("./components/textarea");
 var _toast = require("./components/toast");
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }

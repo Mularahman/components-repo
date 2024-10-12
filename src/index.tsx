@@ -70,6 +70,7 @@ import {
   PaginationNext,
   PaginationPrevious,
 } from './components/pagination'
+import  TablePagination  from './components/table-pagination'
 import {
   Select,
   SelectGroup,
@@ -186,6 +187,7 @@ export {
   PaginationLink,
   PaginationNext,
   PaginationPrevious,
+  TablePagination,
   Select,
   SelectGroup,
   SelectValue,
