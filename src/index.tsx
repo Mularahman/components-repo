@@ -4,8 +4,6 @@ import './utils/utils'
 import { Button, buttonVariants } from './components/button'
 import {
   AlertDialog,
-  AlertDialogPortal,
-  AlertDialogOverlay,
   AlertDialogTrigger,
   AlertDialogContent,
   AlertDialogHeader,
@@ -15,6 +13,7 @@ import {
   AlertDialogAction,
   AlertDialogCancel,
 } from './components/alert-dialog'
+import { AlertDialogOverlay } from "@radix-ui/react-alert-dialog";
 import { Badge, badgeVariants } from './components/badge'
 import {
   Breadcrumb,
@@ -126,7 +125,6 @@ export {
   Button,
   buttonVariants,
   AlertDialog,
-  AlertDialogPortal,
   AlertDialogOverlay,
   AlertDialogTrigger,
   AlertDialogContent,
