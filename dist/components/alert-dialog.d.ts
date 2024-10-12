@@ -14,7 +14,8 @@ declare const AlertDialogFooter: {
     displayName: string;
 };
 declare const AlertDialogTitle: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-alert-dialog").AlertDialogTitleProps & React.RefAttributes<HTMLHeadingElement>, "ref"> & React.RefAttributes<HTMLHeadingElement>>;
+declare const AlertDialogSubTitle: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-alert-dialog").AlertDialogDescriptionProps & React.RefAttributes<HTMLParagraphElement>, "ref"> & React.RefAttributes<HTMLParagraphElement>>;
 declare const AlertDialogDescription: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-alert-dialog").AlertDialogDescriptionProps & React.RefAttributes<HTMLParagraphElement>, "ref"> & React.RefAttributes<HTMLParagraphElement>>;
 declare const AlertDialogAction: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-alert-dialog").AlertDialogActionProps & React.RefAttributes<HTMLButtonElement>, "ref"> & React.RefAttributes<HTMLButtonElement>>;
 declare const AlertDialogCancel: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-alert-dialog").AlertDialogCancelProps & React.RefAttributes<HTMLButtonElement>, "ref"> & React.RefAttributes<HTMLButtonElement>>;
-export { AlertDialog, AlertDialogPortal, AlertDialogOverlay, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogDescription, AlertDialogAction, AlertDialogCancel, };
+export { AlertDialog, AlertDialogPortal, AlertDialogOverlay, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogFooter, AlertDialogTitle, AlertDialogSubTitle, AlertDialogDescription, AlertDialogAction, AlertDialogCancel, };

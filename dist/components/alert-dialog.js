@@ -4,7 +4,7 @@ function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.AlertDialogTrigger = exports.AlertDialogTitle = exports.AlertDialogPortal = exports.AlertDialogOverlay = exports.AlertDialogHeader = exports.AlertDialogFooter = exports.AlertDialogDescription = exports.AlertDialogContent = exports.AlertDialogCancel = exports.AlertDialogAction = exports.AlertDialog = void 0;
+exports.AlertDialogTrigger = exports.AlertDialogTitle = exports.AlertDialogSubTitle = exports.AlertDialogPortal = exports.AlertDialogOverlay = exports.AlertDialogHeader = exports.AlertDialogFooter = exports.AlertDialogDescription = exports.AlertDialogContent = exports.AlertDialogCancel = exports.AlertDialogAction = exports.AlertDialog = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _reactAlertDialog = require("@radix-ui/react-alert-dialog");
 var _utils = require("../utils/utils");
@@ -16,7 +16,8 @@ var _excluded = ["className"],
   _excluded5 = ["className"],
   _excluded6 = ["className"],
   _excluded7 = ["className"],
-  _excluded8 = ["className"];
+  _excluded8 = ["className"],
+  _excluded9 = ["className"];
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
 function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; if (null === e || "object" != _typeof(e) && "function" != typeof e) return { "default": e }; var t = _getRequireWildcardCache(r); if (t && t.has(e)) return t.get(e); var n = { __proto__: null }, a = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var u in e) if ("default" !== u && {}.hasOwnProperty.call(e, u)) { var i = a ? Object.getOwnPropertyDescriptor(e, u) : null; i && (i.get || i.set) ? Object.defineProperty(n, u, i) : n[u] = e[u]; } return n["default"] = e, t && t.set(e, n), n; }
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -69,27 +70,36 @@ var AlertDialogTitle = exports.AlertDialogTitle = /*#__PURE__*/(0, _react.forwar
   }, props));
 });
 AlertDialogTitle.displayName = _reactAlertDialog.Title.displayName;
-var AlertDialogDescription = exports.AlertDialogDescription = /*#__PURE__*/(0, _react.forwardRef)(function (_ref6, ref) {
+var AlertDialogSubTitle = exports.AlertDialogSubTitle = /*#__PURE__*/(0, _react.forwardRef)(function (_ref6, ref) {
   var className = _ref6.className,
     props = _objectWithoutProperties(_ref6, _excluded6);
+  return /*#__PURE__*/_react["default"].createElement(_reactAlertDialog.Description, _extends({
+    ref: ref,
+    className: (0, _utils.cn)('text-base font-medium text-black leading-10', className)
+  }, props));
+});
+AlertDialogSubTitle.displayName = _reactAlertDialog.Description.displayName;
+var AlertDialogDescription = exports.AlertDialogDescription = /*#__PURE__*/(0, _react.forwardRef)(function (_ref7, ref) {
+  var className = _ref7.className,
+    props = _objectWithoutProperties(_ref7, _excluded7);
   return /*#__PURE__*/_react["default"].createElement(_reactAlertDialog.Description, _extends({
     ref: ref,
     className: (0, _utils.cn)('text-sm text-muted-foreground', className)
   }, props));
 });
 AlertDialogDescription.displayName = _reactAlertDialog.Description.displayName;
-var AlertDialogAction = exports.AlertDialogAction = /*#__PURE__*/(0, _react.forwardRef)(function (_ref7, ref) {
-  var className = _ref7.className,
-    props = _objectWithoutProperties(_ref7, _excluded7);
+var AlertDialogAction = exports.AlertDialogAction = /*#__PURE__*/(0, _react.forwardRef)(function (_ref8, ref) {
+  var className = _ref8.className,
+    props = _objectWithoutProperties(_ref8, _excluded8);
   return /*#__PURE__*/_react["default"].createElement(_reactAlertDialog.Action, _extends({
     ref: ref,
     className: (0, _utils.cn)((0, _button.buttonVariants)(), className)
   }, props));
 });
 AlertDialogAction.displayName = _reactAlertDialog.Action.displayName;
-var AlertDialogCancel = exports.AlertDialogCancel = /*#__PURE__*/(0, _react.forwardRef)(function (_ref8, ref) {
-  var className = _ref8.className,
-    props = _objectWithoutProperties(_ref8, _excluded8);
+var AlertDialogCancel = exports.AlertDialogCancel = /*#__PURE__*/(0, _react.forwardRef)(function (_ref9, ref) {
+  var className = _ref9.className,
+    props = _objectWithoutProperties(_ref9, _excluded9);
   return /*#__PURE__*/_react["default"].createElement(_reactAlertDialog.Cancel, _extends({
     ref: ref,
     className: (0, _utils.cn)((0, _button.buttonVariants)({

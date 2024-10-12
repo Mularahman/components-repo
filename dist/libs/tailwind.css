@@ -963,6 +963,10 @@ video {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -987,6 +991,9 @@ video {
 .font-semibold {
   font-weight: 600;
 }
+.leading-10 {
+  line-height: 2.5rem;
+}
 .leading-none {
   line-height: 1;
 }
@@ -995,6 +1002,10 @@ video {
 }
 .tracking-widest {
   letter-spacing: 0.1em;
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .text-card-foreground {
   color: hsl(var(--card-foreground));

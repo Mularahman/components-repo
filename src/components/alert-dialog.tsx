@@ -69,6 +69,12 @@ const AlertDialogTitle = forwardRef<ElementRef<typeof Title>, ComponentPropsWith
 
 AlertDialogTitle.displayName = Title.displayName
 
+const AlertDialogSubTitle = forwardRef<ElementRef<typeof Description>, ComponentPropsWithoutRef<typeof Description>>(
+  ({ className, ...props }, ref) => <Description ref={ref} className={cn('text-base font-medium text-black leading-10', className)} {...props} />,
+)
+
+AlertDialogSubTitle.displayName = Description.displayName
+
 const AlertDialogDescription = forwardRef<ElementRef<typeof Description>, ComponentPropsWithoutRef<typeof Description>>(
   ({ className, ...props }, ref) => (
     <Description ref={ref} className={cn('text-sm text-muted-foreground', className)} {...props} />
@@ -100,6 +106,7 @@ export {
   AlertDialogHeader,
   AlertDialogFooter,
   AlertDialogTitle,
+  AlertDialogSubTitle,
   AlertDialogDescription,
   AlertDialogAction,
   AlertDialogCancel,
