@@ -48,13 +48,7 @@ Object.defineProperty(exports, "AlertDialogHeader", {
 Object.defineProperty(exports, "AlertDialogOverlay", {
   enumerable: true,
   get: function get() {
-    return _alertDialog.AlertDialogOverlay;
-  }
-});
-Object.defineProperty(exports, "AlertDialogPortal", {
-  enumerable: true,
-  get: function get() {
-    return _alertDialog.AlertDialogPortal;
+    return _reactAlertDialog.AlertDialogOverlay;
   }
 });
 Object.defineProperty(exports, "AlertDialogTitle", {
@@ -619,6 +613,7 @@ require("./libs/tailwind.css");
 require("./utils/utils");
 var _button = require("./components/button");
 var _alertDialog = require("./components/alert-dialog");
+var _reactAlertDialog = require("@radix-ui/react-alert-dialog");
 var _badge = require("./components/badge");
 var _breadcrumb = require("./components/breadcrumb");
 var _card = require("./components/card");
