@@ -1,5 +1,5 @@
 import { ReactNode } from 'react';
-import type { ToastActionElement, ToastProps } from '../components/toast';
+import type { ToastActionElement, ToastProps } from '../components/toast/toast';
 type ToasterToast = ToastProps & {
     id: string;
     title?: ReactNode;
