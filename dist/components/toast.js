@@ -9,6 +9,7 @@ var _react = _interopRequireWildcard(require("react"));
 var _reactToast = require("@radix-ui/react-toast");
 var _classVarianceAuthority = require("class-variance-authority");
 var _lucideReact = require("lucide-react");
+require("../libs/tailwind.css");
 var _utils = require("../utils/utils");
 var _excluded = ["className"],
   _excluded2 = ["className", "variant"],

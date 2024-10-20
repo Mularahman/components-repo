@@ -8,6 +8,7 @@ exports.DialogTrigger = exports.DialogTitle = exports.DialogPortal = exports.Dia
 var _react = _interopRequireWildcard(require("react"));
 var _reactDialog = require("@radix-ui/react-dialog");
 var _lucideReact = require("lucide-react");
+require("../libs/tailwind.css");
 var _utils = require("../utils/utils");
 var _excluded = ["className"],
   _excluded2 = ["className", "children"],
