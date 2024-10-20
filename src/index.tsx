@@ -1,7 +1,8 @@
 import './libs/tailwind.css'
 import './utils/utils'
 
-export {
+import { Button, buttonVariants } from './components/button'
+import {
   AlertDialog,
   AlertDialogPortal,
   AlertDialogOverlay,
@@ -14,10 +15,8 @@ export {
   AlertDialogAction,
   AlertDialogCancel,
 } from './components/alert-dialog'
-
-export { Badge, badgeVariants } from './components/badge'
-
-export {
+import { Badge, badgeVariants } from './components/badge'
+import {
   Breadcrumb,
   BreadcrumbList,
   BreadcrumbItem,
@@ -27,13 +26,9 @@ export {
   BreadcrumbEllipsis,
 } from './components/breadcrumb'
 
-export { Button, buttonVariants } from './components/button'
+import { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent } from './components/card'
 
-export { Card, CardHeader, CardFooter, CardTitle, CardDescription, CardContent } from './components/card'
-
-export { Chip, chipVariants } from './components/chip'
-
-export {
+import {
   Dialog,
   DialogPortal,
   DialogOverlay,
@@ -46,7 +41,8 @@ export {
   DialogDescription,
 } from './components/dialog'
 
-export {
+import { Chip, chipVariants } from './components/chip'
+import {
   DropdownMenu,
   DropdownMenuTrigger,
   DropdownMenuContent,
@@ -63,12 +59,9 @@ export {
   DropdownMenuSubTrigger,
   DropdownMenuRadioGroup,
 } from './components/dropdown-menu'
-
-export { default as Input } from './components/input'
-
-export { default as Label } from './components/label'
-
-export {
+import { Input } from './components/input'
+import { Label } from './components/label'
+import {
   Pagination,
   PaginationContent,
   PaginationEllipsis,
@@ -77,8 +70,8 @@ export {
   PaginationNext,
   PaginationPrevious,
 } from './components/pagination'
-
-export {
+import TablePagination from './components/table-pagination'
+import {
   Select,
   SelectGroup,
   SelectValue,
@@ -91,9 +84,8 @@ export {
   SelectScrollDownButton,
 } from './components/select'
 
-export { default as Separator } from './components/separator'
-
-export {
+import { Separator } from './components/separator'
+import {
   Sheet,
   SheetPortal,
   SheetOverlay,
@@ -106,9 +98,7 @@ export {
   SheetDescription,
 } from './components/sheet'
 
-export { default as TablePagination } from './components/table-pagination'
-
-export {
+import {
   Table,
   TableHeader,
   TableBody,
@@ -119,9 +109,8 @@ export {
   TableCaption,
 } from './components/table'
 
-export { default as Textarea } from './components/textarea'
-
-export {
+import { Textarea } from './components/textarea'
+import {
   type ToastProps,
   type ToastActionElement,
   ToastProvider,
@@ -133,4 +122,109 @@ export {
   ToastAction,
 } from './components/toast'
 
-export { default as Toaster } from './components/toaster'
+export {
+  Button,
+  buttonVariants,
+  AlertDialog,
+  AlertDialogPortal,
+  AlertDialogOverlay,
+  AlertDialogTrigger,
+  AlertDialogContent,
+  AlertDialogHeader,
+  AlertDialogFooter,
+  AlertDialogTitle,
+  AlertDialogDescription,
+  AlertDialogAction,
+  AlertDialogCancel,
+  Badge,
+  badgeVariants,
+  Breadcrumb,
+  BreadcrumbList,
+  BreadcrumbItem,
+  BreadcrumbLink,
+  BreadcrumbPage,
+  BreadcrumbSeparator,
+  BreadcrumbEllipsis,
+  Card,
+  CardHeader,
+  CardFooter,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  Chip,
+  chipVariants,
+  Dialog,
+  DialogPortal,
+  DialogOverlay,
+  DialogClose,
+  DialogTrigger,
+  DialogContent,
+  DialogHeader,
+  DialogFooter,
+  DialogTitle,
+  DialogDescription,
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuCheckboxItem,
+  DropdownMenuRadioItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuShortcut,
+  DropdownMenuGroup,
+  DropdownMenuPortal,
+  DropdownMenuSub,
+  DropdownMenuSubContent,
+  DropdownMenuSubTrigger,
+  DropdownMenuRadioGroup,
+  Input,
+  Label,
+  Pagination,
+  PaginationContent,
+  PaginationEllipsis,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+  TablePagination,
+  Select,
+  SelectGroup,
+  SelectValue,
+  SelectTrigger,
+  SelectContent,
+  SelectLabel,
+  SelectItem,
+  SelectSeparator,
+  SelectScrollUpButton,
+  SelectScrollDownButton,
+  Separator,
+  Sheet,
+  SheetPortal,
+  SheetOverlay,
+  SheetTrigger,
+  SheetClose,
+  SheetContent,
+  SheetHeader,
+  SheetFooter,
+  SheetTitle,
+  SheetDescription,
+  Table,
+  TableHeader,
+  TableBody,
+  TableFooter,
+  TableHead,
+  TableRow,
+  TableCell,
+  TableCaption,
+  Textarea,
+  type ToastProps,
+  type ToastActionElement,
+  ToastProvider,
+  ToastViewport,
+  Toast,
+  ToastTitle,
+  ToastDescription,
+  ToastClose,
+  ToastAction,
+}

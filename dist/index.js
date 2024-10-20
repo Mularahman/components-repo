@@ -318,13 +318,13 @@ Object.defineProperty(exports, "DropdownMenuTrigger", {
 Object.defineProperty(exports, "Input", {
   enumerable: true,
   get: function get() {
-    return _input["default"];
+    return _input.Input;
   }
 });
 Object.defineProperty(exports, "Label", {
   enumerable: true,
   get: function get() {
-    return _label["default"];
+    return _label.Label;
   }
 });
 Object.defineProperty(exports, "Pagination", {
@@ -432,7 +432,7 @@ Object.defineProperty(exports, "SelectValue", {
 Object.defineProperty(exports, "Separator", {
   enumerable: true,
   get: function get() {
-    return _separator["default"];
+    return _separator.Separator;
   }
 });
 Object.defineProperty(exports, "Sheet", {
@@ -552,7 +552,7 @@ Object.defineProperty(exports, "TableRow", {
 Object.defineProperty(exports, "Textarea", {
   enumerable: true,
   get: function get() {
-    return _textarea["default"];
+    return _textarea.Textarea;
   }
 });
 Object.defineProperty(exports, "Toast", {
@@ -597,12 +597,6 @@ Object.defineProperty(exports, "ToastViewport", {
     return _toast.ToastViewport;
   }
 });
-Object.defineProperty(exports, "Toaster", {
-  enumerable: true,
-  get: function get() {
-    return _toaster["default"];
-  }
-});
 Object.defineProperty(exports, "badgeVariants", {
   enumerable: true,
   get: function get() {
@@ -623,23 +617,22 @@ Object.defineProperty(exports, "chipVariants", {
 });
 require("./libs/tailwind.css");
 require("./utils/utils");
+var _button = require("./components/button");
 var _alertDialog = require("./components/alert-dialog");
 var _badge = require("./components/badge");
 var _breadcrumb = require("./components/breadcrumb");
-var _button = require("./components/button");
 var _card = require("./components/card");
-var _chip = require("./components/chip");
 var _dialog = require("./components/dialog");
+var _chip = require("./components/chip");
 var _dropdownMenu = require("./components/dropdown-menu");
-var _input = _interopRequireDefault(require("./components/input"));
-var _label = _interopRequireDefault(require("./components/label"));
+var _input = require("./components/input");
+var _label = require("./components/label");
 var _pagination = require("./components/pagination");
-var _select = require("./components/select");
-var _separator = _interopRequireDefault(require("./components/separator"));
-var _sheet = require("./components/sheet");
 var _tablePagination = _interopRequireDefault(require("./components/table-pagination"));
+var _select = require("./components/select");
+var _separator = require("./components/separator");
+var _sheet = require("./components/sheet");
 var _table = require("./components/table");
-var _textarea = _interopRequireDefault(require("./components/textarea"));
+var _textarea = require("./components/textarea");
 var _toast = require("./components/toast");
-var _toaster = _interopRequireDefault(require("./components/toaster"));
 function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }

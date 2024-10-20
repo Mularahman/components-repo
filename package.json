@@ -1,6 +1,6 @@
 {
-  "name": "components-repo-testing",
-  "version": "1.0.8",
+  "name": "rapid-components-repo",
+  "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,24 +9,24 @@
     "libs/tailwind.css"
   ],
   "scripts": {
-     "build:css": "postcss src/libs/tailwind.css -o dist/libs/tailwind.css",
+    "build:css": "postcss src/libs/tailwind.css -o dist/libs/tailwind.css",
     "build:tsc": "tsc --emitDeclarationOnly",
     "build:babel": "babel src --out-dir dist --extensions '.ts,.tsx'",
     "build": "npm run build:css && npm run build:tsc && npm run build:babel",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
-    "prettier": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\""
+    "prettier": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"" 
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mularahman/components-repo.git"
+    "url": "git+https://github.com/imamsantosa/rapid-components-repo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mularahman/components-repo/issues"
+    "url": "https://github.com/imamsantosa/rapid-components-repo/issues"
   },
-  "homepage": "https://github.com/Mularahman/components-repo#readme",
+  "homepage": "https://github.com/imamsantosa/rapid-components-repo#readme",
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.2",
     "@radix-ui/react-dropdown-menu": "^2.1.2",
