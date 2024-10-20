@@ -1,6 +1,6 @@
-/* eslint-disable no-undef */
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type { Config } from "tailwindcss";
+
+const config = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
@@ -88,6 +88,9 @@ module.exports = {
       quicksand: 'var(--font-quicksand), sans-serif',
     },
   },
+  // eslint-disable-next-line @typescript-eslint/no-require-imports, no-undef
   plugins: [require('tailwindcss-animate')],
-}
+} satisfies Config;
+
+export default config;
 
