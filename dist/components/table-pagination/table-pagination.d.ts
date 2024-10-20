@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../libs/tailwind.css';
 interface TablePaginationProps {
     current: number;
     total: number;

@@ -4,6 +4,7 @@ import { cva, type VariantProps } from 'class-variance-authority'
 import { X } from 'lucide-react'
 import React from 'react'
 import { cn } from '../../utils/utils'
+import '../../libs/tailwind.css'
 
 const Sheet = Root
 const SheetTrigger = Trigger

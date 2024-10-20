@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
 import React from 'react';
+import '../../libs/tailwind.css';
 declare const Card: React.ForwardRefExoticComponent<HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
 declare const CardHeader: React.ForwardRefExoticComponent<HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
 declare const CardTitle: React.ForwardRefExoticComponent<HTMLAttributes<HTMLHeadingElement> & React.RefAttributes<HTMLParagraphElement>>;

@@ -3,6 +3,7 @@ import { Close, Content, Description, Overlay, Portal, Root, Title, Trigger } fr
 import { X } from 'lucide-react'
 import React from 'react'
 import { cn } from '../../utils/utils'
+import '../../libs/tailwind.css'
 
 const Dialog = Root
 const DialogTrigger = Trigger

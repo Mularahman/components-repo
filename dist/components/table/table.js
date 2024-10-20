@@ -7,6 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.TableRow = exports.TableHeader = exports.TableHead = exports.TableFooter = exports.TableCell = exports.TableCaption = exports.TableBody = exports.Table = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _utils = require("../../utils/utils");
+require("../../libs/tailwind.css");
 var _excluded = ["className"],
   _excluded2 = ["className"],
   _excluded3 = ["className"],

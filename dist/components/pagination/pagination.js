@@ -10,6 +10,7 @@ var _link = _interopRequireDefault(require("next/link"));
 var _lucideReact = require("lucide-react");
 var _utils = require("../../utils/utils");
 var _button = require("../button/button");
+require("../../libs/tailwind.css");
 var _excluded = ["className"],
   _excluded2 = ["className"],
   _excluded3 = ["className"],

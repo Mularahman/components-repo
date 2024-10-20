@@ -7,6 +7,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.CardTitle = exports.CardHeader = exports.CardFooter = exports.CardDescription = exports.CardContent = exports.Card = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _utils = require("../../utils/utils");
+require("../../libs/tailwind.css");
 var _excluded = ["className"],
   _excluded2 = ["className"],
   _excluded3 = ["className"],
