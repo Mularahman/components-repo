@@ -14,11 +14,11 @@ interface SheetContentProps extends ComponentPropsWithoutRef<typeof Content>, Va
 }
 declare const SheetContent: React.ForwardRefExoticComponent<SheetContentProps & React.RefAttributes<HTMLDivElement>>;
 declare const SheetHeader: {
-    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): import("react/jsx-runtime").JSX.Element;
+    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): React.JSX.Element;
     displayName: string;
 };
 declare const SheetFooter: {
-    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): import("react/jsx-runtime").JSX.Element;
+    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): React.JSX.Element;
     displayName: string;
 };
 declare const SheetTitle: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-dialog").DialogTitleProps & React.RefAttributes<HTMLHeadingElement>, "ref"> & React.RefAttributes<HTMLHeadingElement>>;

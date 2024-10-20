@@ -7,11 +7,11 @@ declare const DialogClose: React.ForwardRefExoticComponent<import("@radix-ui/rea
 declare const DialogOverlay: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-dialog").DialogOverlayProps & React.RefAttributes<HTMLDivElement>, "ref"> & React.RefAttributes<HTMLDivElement>>;
 declare const DialogContent: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-dialog").DialogContentProps & React.RefAttributes<HTMLDivElement>, "ref"> & React.RefAttributes<HTMLDivElement>>;
 declare const DialogHeader: {
-    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): import("react/jsx-runtime").JSX.Element;
+    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): React.JSX.Element;
     displayName: string;
 };
 declare const DialogFooter: {
-    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): import("react/jsx-runtime").JSX.Element;
+    ({ className, ...props }: HTMLAttributes<HTMLDivElement>): React.JSX.Element;
     displayName: string;
 };
 declare const DialogTitle: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-dialog").DialogTitleProps & React.RefAttributes<HTMLHeadingElement>, "ref"> & React.RefAttributes<HTMLHeadingElement>>;

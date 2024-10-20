@@ -10,11 +10,11 @@ declare const BreadcrumbLink: React.ForwardRefExoticComponent<Omit<React.Detaile
 } & React.RefAttributes<HTMLAnchorElement>>;
 declare const BreadcrumbPage: React.ForwardRefExoticComponent<Omit<React.DetailedHTMLProps<React.HTMLAttributes<HTMLSpanElement>, HTMLSpanElement>, "ref"> & React.RefAttributes<HTMLSpanElement>>;
 declare const BreadcrumbSeparator: {
-    ({ children, className, ...props }: ComponentProps<"li">): import("react/jsx-runtime").JSX.Element;
+    ({ children, className, ...props }: ComponentProps<"li">): React.JSX.Element;
     displayName: string;
 };
 declare const BreadcrumbEllipsis: {
-    ({ className, ...props }: ComponentProps<"span">): import("react/jsx-runtime").JSX.Element;
+    ({ className, ...props }: ComponentProps<"span">): React.JSX.Element;
     displayName: string;
 };
 export { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbPage, BreadcrumbSeparator, BreadcrumbEllipsis, };

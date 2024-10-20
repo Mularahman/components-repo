@@ -21,7 +21,7 @@ declare const DropdownMenuLabel: React.ForwardRefExoticComponent<Omit<import("@r
 } & React.RefAttributes<HTMLDivElement>>;
 declare const DropdownMenuSeparator: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-dropdown-menu").DropdownMenuSeparatorProps & React.RefAttributes<HTMLDivElement>, "ref"> & React.RefAttributes<HTMLDivElement>>;
 declare const DropdownMenuShortcut: {
-    ({ className, ...props }: HTMLAttributes<HTMLSpanElement>): import("react/jsx-runtime").JSX.Element;
+    ({ className, ...props }: HTMLAttributes<HTMLSpanElement>): React.JSX.Element;
     displayName: string;
 };
 export { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem, DropdownMenuCheckboxItem, DropdownMenuRadioItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuShortcut, DropdownMenuGroup, DropdownMenuPortal, DropdownMenuSub, DropdownMenuSubContent, DropdownMenuSubTrigger, DropdownMenuRadioGroup, };
