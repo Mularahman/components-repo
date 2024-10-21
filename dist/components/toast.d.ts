@@ -4,7 +4,7 @@ import React from 'react';
 declare const ToastProvider: React.FC<import("@radix-ui/react-toast").ToastProviderProps>;
 declare const ToastViewport: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-toast").ToastViewportProps & React.RefAttributes<HTMLOListElement>, "ref"> & React.RefAttributes<HTMLOListElement>>;
 declare const Toast: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-toast").ToastProps & React.RefAttributes<HTMLLIElement>, "ref"> & VariantProps<(props?: ({
-    variant?: "default" | "destructive" | "success" | null | undefined;
+    variant?: "default" | "success" | "destructive" | null | undefined;
 } & import("class-variance-authority/dist/types").ClassProp) | undefined) => string> & React.RefAttributes<HTMLLIElement>>;
 declare const ToastAction: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-toast").ToastActionProps & React.RefAttributes<HTMLButtonElement>, "ref"> & React.RefAttributes<HTMLButtonElement>>;
 declare const ToastClose: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-toast").ToastCloseProps & React.RefAttributes<HTMLButtonElement>, "ref"> & React.RefAttributes<HTMLButtonElement>>;
