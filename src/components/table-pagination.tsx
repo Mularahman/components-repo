@@ -8,6 +8,7 @@ import {
     PaginationNext,
     PaginationPrevious,
 } from "./pagination";
+import "../libs/tailwind.css"
 import React from "react";
 interface TableItemProps {
     current: number;

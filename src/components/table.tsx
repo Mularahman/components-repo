@@ -1,5 +1,6 @@
 import { forwardRef, HTMLAttributes, TdHTMLAttributes, ThHTMLAttributes } from 'react'
 import React from 'react'
+import "../libs/tailwind.css"
 import { cn } from '../utils/utils'
 
 const Table = forwardRef<HTMLTableElement, HTMLAttributes<HTMLTableElement>>(({ className, ...props }, ref) => (
