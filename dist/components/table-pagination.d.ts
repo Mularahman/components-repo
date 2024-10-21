@@ -1,3 +1,4 @@
+import "../libs/tailwind.css";
 import React from "react";
 interface TablePaginationProps {
     current: number;

@@ -8,6 +8,7 @@ exports.BreadcrumbSeparator = exports.BreadcrumbPage = exports.BreadcrumbList = 
 var _react = _interopRequireWildcard(require("react"));
 var _reactSlot = require("@radix-ui/react-slot");
 var _lucideReact = require("lucide-react");
+require("../libs/tailwind.css");
 var _utils = require("../utils/utils");
 var _excluded = ["className"],
   _excluded2 = ["className"],
@@ -20,7 +21,7 @@ function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; 
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var s = Object.getOwnPropertySymbols(e); for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (e.includes(n)) continue; t[n] = r[n]; } return t; }
 function _objectDestructuringEmpty(t) { if (null == t) throw new TypeError("Cannot destructure " + t); }
-function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); } // import "../libs/tailwind.css"
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 var Breadcrumb = exports.Breadcrumb = /*#__PURE__*/(0, _react.forwardRef)(function (_ref, ref) {
   var props = _extends({}, (_objectDestructuringEmpty(_ref), _ref));
   return /*#__PURE__*/_react["default"].createElement("nav", _extends({

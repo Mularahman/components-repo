@@ -1,5 +1,6 @@
 import { HTMLAttributes } from 'react';
 import React from 'react';
+import "../libs/tailwind.css";
 declare const DropdownMenu: React.FC<import("@radix-ui/react-dropdown-menu").DropdownMenuProps>;
 declare const DropdownMenuTrigger: React.ForwardRefExoticComponent<import("@radix-ui/react-dropdown-menu").DropdownMenuTriggerProps & React.RefAttributes<HTMLButtonElement>>;
 declare const DropdownMenuGroup: React.ForwardRefExoticComponent<import("@radix-ui/react-dropdown-menu").DropdownMenuGroupProps & React.RefAttributes<HTMLDivElement>>;

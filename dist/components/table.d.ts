@@ -1,5 +1,6 @@
 import { HTMLAttributes, TdHTMLAttributes, ThHTMLAttributes } from 'react';
 import React from 'react';
+import "../libs/tailwind.css";
 declare const Table: React.ForwardRefExoticComponent<HTMLAttributes<HTMLTableElement> & React.RefAttributes<HTMLTableElement>>;
 declare const TableHeader: React.ForwardRefExoticComponent<HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;
 declare const TableBody: React.ForwardRefExoticComponent<HTMLAttributes<HTMLTableSectionElement> & React.RefAttributes<HTMLTableSectionElement>>;

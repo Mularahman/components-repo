@@ -3,7 +3,7 @@
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from '../components/toast'
 import { useToast } from './use-toast'
 import React from 'react'
-// import "../libs/tailwind.css"
+import "../libs/tailwind.css"
 
 export const Toaster = () => {
   const { toasts } = useToast()

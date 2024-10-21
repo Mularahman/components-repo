@@ -1,6 +1,7 @@
 import { ComponentPropsWithoutRef, ReactElement } from 'react';
 import { type VariantProps } from 'class-variance-authority';
 import React from 'react';
+import "../libs/tailwind.css";
 declare const ToastProvider: React.FC<import("@radix-ui/react-toast").ToastProviderProps>;
 declare const ToastViewport: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-toast").ToastViewportProps & React.RefAttributes<HTMLOListElement>, "ref"> & React.RefAttributes<HTMLOListElement>>;
 declare const Toast: React.ForwardRefExoticComponent<Omit<import("@radix-ui/react-toast").ToastProps & React.RefAttributes<HTMLLIElement>, "ref"> & VariantProps<(props?: ({
