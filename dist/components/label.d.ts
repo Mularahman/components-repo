@@ -1,6 +1,5 @@
 import { type VariantProps } from 'class-variance-authority';
 import React from 'react';
-import "../libs/tailwind.css";
 type LabelProps = {
     required?: boolean;
 };

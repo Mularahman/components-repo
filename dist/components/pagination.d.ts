@@ -2,7 +2,6 @@ import { ComponentProps } from 'react';
 import Link from 'next/link';
 import { ButtonProps } from '../components/button';
 import React from 'react';
-import "../libs/tailwind.css";
 declare const Pagination: {
     ({ className, ...props }: ComponentProps<"nav">): React.JSX.Element;
     displayName: string;

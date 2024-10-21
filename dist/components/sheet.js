@@ -10,7 +10,6 @@ var _reactDialog = require("@radix-ui/react-dialog");
 var _classVarianceAuthority = require("class-variance-authority");
 var _lucideReact = require("lucide-react");
 var _utils = require("../utils/utils");
-require("../libs/tailwind.css");
 var _excluded = ["className"],
   _excluded2 = ["side", "className", "children"],
   _excluded3 = ["className"],
@@ -22,6 +21,8 @@ function _interopRequireWildcard(e, r) { if (!r && e && e.__esModule) return e; 
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var s = Object.getOwnPropertySymbols(e); for (r = 0; r < s.length; r++) o = s[r], t.includes(o) || {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
 function _objectWithoutPropertiesLoose(r, e) { if (null == r) return {}; var t = {}; for (var n in r) if ({}.hasOwnProperty.call(r, n)) { if (e.includes(n)) continue; t[n] = r[n]; } return t; }
+// import "../libs/tailwind.css"
+
 var Sheet = exports.Sheet = _reactDialog.Root;
 var SheetTrigger = exports.SheetTrigger = _reactDialog.Trigger;
 var SheetClose = exports.SheetClose = _reactDialog.Close;
