@@ -19,7 +19,6 @@ import {
 import { Check, ChevronDown, ChevronUp } from 'lucide-react'
 import React from 'react'
 import { cn } from '../utils/utils'
-import '../libs/tailwind.css'
 
 const Select = Root
 const SelectGroup = Group

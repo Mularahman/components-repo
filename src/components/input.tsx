@@ -1,7 +1,6 @@
 import { forwardRef, InputHTMLAttributes } from 'react'
 import React from 'react'
 import { cn } from '../utils/utils'
-import '../libs/tailwind.css'
 
 // eslint-disable-next-line @typescript-eslint/no-empty-object-type
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}

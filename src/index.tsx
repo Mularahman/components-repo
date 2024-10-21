@@ -1,4 +1,3 @@
-import './libs/tailwind.css'
 import './utils/utils'
 
 import { Button, buttonVariants } from './components/button'

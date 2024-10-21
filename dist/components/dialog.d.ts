@@ -1,6 +1,5 @@
 import { HTMLAttributes } from 'react';
 import React from 'react';
-import '../libs/tailwind.css';
 declare const Dialog: React.FC<import("@radix-ui/react-dialog").DialogProps>;
 declare const DialogTrigger: React.ForwardRefExoticComponent<import("@radix-ui/react-dialog").DialogTriggerProps & React.RefAttributes<HTMLButtonElement>>;
 declare const DialogPortal: React.FC<import("@radix-ui/react-dialog").DialogPortalProps>;

@@ -13,7 +13,6 @@ import {
 import React from 'react'
 import { cn } from '../utils/utils'
 import { buttonVariants } from './button'
-import '../libs/tailwind.css'
 
 const AlertDialog = Root
 const AlertDialogTrigger = Trigger

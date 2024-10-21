@@ -9,7 +9,6 @@ var _react = _interopRequireWildcard(require("react"));
 var _reactSlot = require("@radix-ui/react-slot");
 var _lucideReact = require("lucide-react");
 var _utils = require("../utils/utils");
-require("../libs/tailwind.css");
 var _excluded = ["className"],
   _excluded2 = ["className"],
   _excluded3 = ["asChild", "className"],

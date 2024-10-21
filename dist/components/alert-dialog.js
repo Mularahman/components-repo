@@ -9,7 +9,6 @@ var _react = _interopRequireWildcard(require("react"));
 var _reactAlertDialog = require("@radix-ui/react-alert-dialog");
 var _utils = require("../utils/utils");
 var _button = require("./button");
-require("../libs/tailwind.css");
 var _excluded = ["className"],
   _excluded2 = ["className"],
   _excluded3 = ["className"],

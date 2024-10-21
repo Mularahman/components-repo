@@ -1,5 +1,4 @@
 import React from 'react';
-import '../libs/tailwind.css';
 declare const Select: React.FC<import("@radix-ui/react-select").SelectProps>;
 declare const SelectGroup: React.ForwardRefExoticComponent<import("@radix-ui/react-select").SelectGroupProps & React.RefAttributes<HTMLDivElement>>;
 declare const SelectValue: React.ForwardRefExoticComponent<import("@radix-ui/react-select").SelectValueProps & React.RefAttributes<HTMLSpanElement>>;
