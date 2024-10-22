@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config = {
+   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
