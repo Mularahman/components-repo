@@ -1,6 +1,6 @@
 import { ComponentProps, ReactNode } from 'react';
 import React from 'react';
-import "../libs/tailwind.css";
+import "../libs/style.css";
 declare const Breadcrumb: React.ForwardRefExoticComponent<Omit<React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>, "ref"> & {
     separator?: ReactNode;
 } & React.RefAttributes<HTMLElement>>;

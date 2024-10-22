@@ -10,7 +10,7 @@ var _reactDialog = require("@radix-ui/react-dialog");
 var _classVarianceAuthority = require("class-variance-authority");
 var _lucideReact = require("lucide-react");
 var _utils = require("../utils/utils");
-require("../libs/tailwind.css");
+require("../libs/style.css");
 var _excluded = ["className"],
   _excluded2 = ["side", "className", "children"],
   _excluded3 = ["className"],

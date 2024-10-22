@@ -2,7 +2,7 @@ import { ComponentPropsWithoutRef, HTMLAttributes } from 'react';
 import { Content } from '@radix-ui/react-dialog';
 import { type VariantProps } from 'class-variance-authority';
 import React from 'react';
-import "../libs/tailwind.css";
+import "../libs/style.css";
 declare const Sheet: React.FC<import("@radix-ui/react-dialog").DialogProps>;
 declare const SheetTrigger: React.ForwardRefExoticComponent<import("@radix-ui/react-dialog").DialogTriggerProps & React.RefAttributes<HTMLButtonElement>>;
 declare const SheetClose: React.ForwardRefExoticComponent<import("@radix-ui/react-dialog").DialogCloseProps & React.RefAttributes<HTMLButtonElement>>;

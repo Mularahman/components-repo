@@ -6,7 +6,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.Textarea = void 0;
 var _react = _interopRequireWildcard(require("react"));
-require("../libs/tailwind.css");
+require("../libs/style.css");
 var _utils = require("../utils/utils");
 var _excluded = ["className"];
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }

@@ -6,10 +6,10 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-     "libs/tailwind.css"
+     "libs/style.css"
   ],
   "scripts": {
-    "build:css": "postcss src/libs/tailwind.css -o dist/libs/tailwind.css",
+    "build:css": "postcss src/libs/style.css -o dist/libs/style.css",
     "build:tsc": "tsc --emitDeclarationOnly",
     "build:babel": "babel src --out-dir dist --extensions '.ts,.tsx'",
    "build": "npm run build:css && npm run build:tsc && npm run build:babel",
