@@ -615,7 +615,6 @@ Object.defineProperty(exports, "chipVariants", {
     return _chip.chipVariants;
   }
 });
-require("./utils/utils");
 var _button = require("./components/button");
 var _alertDialog = require("./components/alert-dialog");
 var _badge = require("./components/badge");

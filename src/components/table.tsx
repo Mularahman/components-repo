@@ -1,6 +1,7 @@
 import { forwardRef, HTMLAttributes, TdHTMLAttributes, ThHTMLAttributes } from 'react'
 import React from 'react'
 import { cn } from '../utils/utils'
+import '../libs/tailwind.css'
 
 const Table = forwardRef<HTMLTableElement, HTMLAttributes<HTMLTableElement>>(({ className, ...props }, ref) => (
   <div className='relative w-full overflow-auto'>

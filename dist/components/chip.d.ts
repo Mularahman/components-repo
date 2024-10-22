@@ -1,6 +1,7 @@
 import { ButtonHTMLAttributes } from 'react';
 import { type VariantProps } from 'class-variance-authority';
 import React from 'react';
+import '../libs/tailwind.css';
 declare const chipVariants: (props?: ({
     variant?: "default" | "destructive" | "outline" | "secondary" | "ghost" | "link" | null | undefined;
     size?: "default" | "sm" | "lg" | null | undefined;

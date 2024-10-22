@@ -10,6 +10,7 @@ var _reactToast = require("@radix-ui/react-toast");
 var _classVarianceAuthority = require("class-variance-authority");
 var _lucideReact = require("lucide-react");
 var _utils = require("../utils/utils");
+require("../libs/tailwind.css");
 var _excluded = ["className"],
   _excluded2 = ["className", "variant"],
   _excluded3 = ["className"],
