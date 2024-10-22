@@ -1,7 +1,6 @@
 import { ComponentPropsWithoutRef, ElementRef, forwardRef } from 'react'
 import { Root } from '@radix-ui/react-separator'
 import React from 'react'
-import '../libs/tailwind.css'
 import { cn } from '../utils/utils'
 
 const Separator = forwardRef<ElementRef<typeof Root>, ComponentPropsWithoutRef<typeof Root>>(

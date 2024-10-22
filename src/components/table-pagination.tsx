@@ -9,7 +9,6 @@ import {
     PaginationPrevious,
 } from "./pagination";
 import React from "react";
-import '../libs/tailwind.css'
 interface TableItemProps {
     current: number;
     page: number;

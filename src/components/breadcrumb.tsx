@@ -3,7 +3,6 @@ import { Slot } from '@radix-ui/react-slot'
 import { ChevronRight, MoreHorizontal } from 'lucide-react'
 import React from 'react'
 import { cn } from '../utils/utils'
-import '../libs/tailwind.css'
 
 const Breadcrumb = forwardRef<
   HTMLElement,

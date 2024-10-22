@@ -1,7 +1,6 @@
 import { forwardRef, TextareaHTMLAttributes } from 'react'
 import React from 'react'
 import { cn } from '../utils/utils'
-import '../libs/tailwind.css'
 
 export interface TextareaProps extends TextareaHTMLAttributes<HTMLTextAreaElement> {}
 

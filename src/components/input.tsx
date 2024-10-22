@@ -1,7 +1,6 @@
 import { forwardRef, InputHTMLAttributes } from 'react'
 import React from 'react'
 import { cn } from '../utils/utils'
-import '../libs/tailwind.css'
 
 export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
 

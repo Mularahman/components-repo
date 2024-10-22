@@ -1,7 +1,6 @@
 import { ButtonHTMLAttributes, forwardRef } from 'react'
 import { cva, type VariantProps } from 'class-variance-authority'
 import React from 'react'
-import '../libs/tailwind.css'
 import { cn } from '../utils/utils'
 
 const chipVariants = cva('relative grid select-none items-center whitespace-nowrap font-bold', {

@@ -7,7 +7,6 @@ Object.defineProperty(exports, "__esModule", {
 exports.chipVariants = exports.Chip = void 0;
 var _react = _interopRequireWildcard(require("react"));
 var _classVarianceAuthority = require("class-variance-authority");
-require("../libs/tailwind.css");
 var _utils = require("../utils/utils");
 var _excluded = ["className", "variant", "size"];
 function _getRequireWildcardCache(e) { if ("function" != typeof WeakMap) return null; var r = new WeakMap(), t = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(e) { return e ? t : r; })(e); }
