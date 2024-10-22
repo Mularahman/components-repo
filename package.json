@@ -11,7 +11,8 @@
   "scripts": {
     "build:css": "postcss src/libs/tailwind.css -o dist/libs/tailwind.css",
     "build:tsc": "tsc --emitDeclarationOnly",
-   "build": "npm run build:css && npm run build:tsc",
+    "build:babel": "babel src --out-dir dist --extensions '.ts,.tsx'",
+   "build": "npm run build:css && npm run build:tsc && npm run build:babel",
     "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
     "prettier": "prettier --write \"src/**/*.{js,ts,jsx,tsx}\"" 
   },
