@@ -3,8 +3,6 @@
 import { Toast, ToastClose, ToastDescription, ToastProvider, ToastTitle, ToastViewport } from '../components/toast'
 import { useToast } from './use-toast'
 import React from 'react'
-import "../libs/style.css"
-
 export const Toaster = () => {
   const { toasts } = useToast()
 

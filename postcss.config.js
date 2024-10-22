@@ -1,11 +1,7 @@
-
-const config = {
+/* eslint-disable no-undef */
+module.exports = {
   plugins: {
     tailwindcss: {},
     autoprefixer: {},
   },
-};
-
-export default config;
-
-
+}

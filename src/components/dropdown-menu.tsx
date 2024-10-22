@@ -19,7 +19,6 @@ import {
 import { Check, ChevronRight, Circle } from 'lucide-react'
 import React from 'react'
 import { cn } from '../utils/utils'
-import "../libs/style.css"
 
 const DropdownMenu = Root
 const DropdownMenuTrigger = Trigger

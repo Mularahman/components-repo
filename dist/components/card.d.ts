@@ -1,5 +1,4 @@
 import { HTMLAttributes } from 'react';
-import "../libs/style.css";
 import React from 'react';
 declare const Card: React.ForwardRefExoticComponent<HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
 declare const CardHeader: React.ForwardRefExoticComponent<HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;

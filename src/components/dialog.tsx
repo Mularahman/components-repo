@@ -2,7 +2,6 @@ import { ComponentPropsWithoutRef, ElementRef, forwardRef, HTMLAttributes } from
 import { Close, Content, Description, Overlay, Portal, Root, Title, Trigger } from '@radix-ui/react-dialog'
 import { X } from 'lucide-react'
 import React from 'react'
-import "../libs/style.css"
 import { cn } from '../utils/utils'
 
 const Dialog = Root

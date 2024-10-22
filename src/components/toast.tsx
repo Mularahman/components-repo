@@ -3,7 +3,6 @@ import { Action, Close, Description, Provider, Root, Title, Viewport } from '@ra
 import { cva, type VariantProps } from 'class-variance-authority'
 import { X } from 'lucide-react'
 import React from 'react'
-import "../libs/style.css"
 import { cn } from '../utils/utils'
 
 const ToastProvider = Provider

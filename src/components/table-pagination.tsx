@@ -8,7 +8,6 @@ import {
     PaginationNext,
     PaginationPrevious,
 } from "./pagination";
-import "../libs/style.css"
 import React from "react";
 interface TableItemProps {
     current: number;

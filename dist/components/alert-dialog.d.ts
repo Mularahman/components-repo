@@ -1,6 +1,5 @@
 import { HTMLAttributes } from 'react';
 import React from 'react';
-import "../libs/style.css";
 declare const AlertDialog: React.FC<import("@radix-ui/react-alert-dialog").AlertDialogProps>;
 declare const AlertDialogTrigger: React.ForwardRefExoticComponent<import("@radix-ui/react-alert-dialog").AlertDialogTriggerProps & React.RefAttributes<HTMLButtonElement>>;
 declare const AlertDialogPortal: React.FC<import("@radix-ui/react-alert-dialog").AlertDialogPortalProps>;

@@ -2,8 +2,6 @@ import { ComponentProps, ComponentPropsWithoutRef, forwardRef, ReactNode } from 
 import { Slot } from '@radix-ui/react-slot'
 import { ChevronRight, MoreHorizontal } from 'lucide-react'
 import React from 'react'
-
-import "../libs/style.css"
 import { cn } from '../utils/utils'
 
 const Breadcrumb = forwardRef<

@@ -1,4 +1,3 @@
-import "../libs/style.css";
 import React from "react";
 interface TablePaginationProps {
     current: number;

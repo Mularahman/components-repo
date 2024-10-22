@@ -9,7 +9,6 @@ var _react = _interopRequireWildcard(require("react"));
 var _reactDropdownMenu = require("@radix-ui/react-dropdown-menu");
 var _lucideReact = require("lucide-react");
 var _utils = require("../utils/utils");
-require("../libs/style.css");
 var _excluded = ["className", "inset", "children"],
   _excluded2 = ["className"],
   _excluded3 = ["className", "sideOffset"],

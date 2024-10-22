@@ -8,7 +8,6 @@ exports.BreadcrumbSeparator = exports.BreadcrumbPage = exports.BreadcrumbList = 
 var _react = _interopRequireWildcard(require("react"));
 var _reactSlot = require("@radix-ui/react-slot");
 var _lucideReact = require("lucide-react");
-require("../libs/style.css");
 var _utils = require("../utils/utils");
 var _excluded = ["className"],
   _excluded2 = ["className"],
