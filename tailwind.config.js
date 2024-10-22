@@ -1,7 +1,6 @@
 /* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  prefix: 'pkg-',
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     container: {
