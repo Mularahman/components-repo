@@ -1,7 +1,8 @@
 import type { Config } from "tailwindcss";
+import tailwindcssAnimate from 'tailwindcss-animate';
+
 
 const config = {
-   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
     './src/components/**/*.{js,jsx,ts,tsx}',
@@ -89,8 +90,7 @@ const config = {
       quicksand: "var(--font-quicksand), sans-serif",
     },
   },
-  // eslint-disable-next-line @typescript-eslint/no-require-imports, no-undef
-  plugins: [require('tailwindcss-animate')],
+  plugins: [tailwindcssAnimate],
 } satisfies Config;
 
 export default config;
